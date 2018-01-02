@@ -2,6 +2,7 @@ function mul(x, y) {
   return x * y;
 }
 
+
 var res = mul(10, 32);
 
 console.log(res);
