@@ -23,7 +23,7 @@ result=`obtain_git_branch`
 echo Current git branch is $result
 
 if [ "$result" != "master" ]; then 
-  echo "branch is not master"; exit 1;;
+  exit 1;
 fi
 
 # Tag prefix
