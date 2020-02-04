@@ -11,24 +11,30 @@ if [ -z "$release" ]; then
     release="patch";
 fi
 
-# Default release branch is master
-if [ -z "$branch" ] ; then
-    branch="master";
-fi;
-
-
-echo "Branch is $branch"
 echo "Release as $release"
+
+# Default release only at master
+function obtain_git_branch {
+  br=`git branch | grep "*"`
+  echo ${br/* /}
+}
+
+result=`obtain_git_branch`
+echo Current git branch is $result
+
+if [ "$result" != "master" ]; then 
+  echo "branch is not master"; exit 1;;
+fi
 
 # Tag prefix
 prefix="zh_v"
 
-git pull origin $branch
-echo "Current pull origin $branch."
+git pull origin $result
+echo "Current pull origin $result."
 
 # Generate version number and tag
 standard-version -r $release --tag-prefix $prefix --infile CHANGELOG.md
 
-git push --follow-tags origin $branch
+git push --follow-tags origin $result
 
 echo "Release finished."
