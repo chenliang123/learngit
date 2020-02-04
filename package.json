@@ -1,6 +1,6 @@
 {
     "name": "learngit",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "description": "test git",
     "main": "quokka.js",
     "scripts": {

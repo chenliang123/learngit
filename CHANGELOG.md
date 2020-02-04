@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.4](https://github.com/chenliang123/learngit/compare/zh_v3.0.3...zh_v3.0.4) (2020-02-04)
+
 ### [3.0.3](https://github.com/chenliang123/learngit/compare/zh_v3.0.2...zh_v3.0.3) (2020-02-04)
 
 ### [3.0.2](https://github.com/chenliang123/learngit/compare/zh_v3.0.1...zh_v3.0.2) (2020-02-04)
