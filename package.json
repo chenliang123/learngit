@@ -1,0 +1,19 @@
+{
+  "name": "learngit",
+  "version": "1.0.0",
+  "description": "test git",
+  "main": "quokka.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenliang123/learngit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenliang123/learngit/issues"
+  },
+  "homepage": "https://github.com/chenliang123/learngit#readme"
+}
