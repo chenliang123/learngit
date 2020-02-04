@@ -1,21 +1,21 @@
 {
-  "name": "learngit",
-  "version": "1.0.0",
-  "description": "test git",
-  "main": "quokka.js",
-  "scripts": {
-      "commit": "git-cz",
-      "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-      "dev": "cross-env BABEL_ENV='dev' rollup -c -w --environment NODE_ENV:development",
-      "build": "cross-env BABEL_ENV='prod' rollup -c --environment NODE_ENV:production",
-      "doc": "node ./node_modules/jsdoc/jsdoc.js src/index.ts -c ./scripts/jsdoc.conf.json -R README.md -r",
-      "test": "cross-env BABEL_ENV='test' jest",
-      "lint": "eslint src --ext .ts",
-      "lint:fix": "eslint src --ext .ts --fix",
-      "release": "./release.sh",
-      "beforePublish": "npm run lint && npm run doc && npm run build"
-  },
-   "husky": {
+    "name": "learngit",
+    "version": "1.0.1",
+    "description": "test git",
+    "main": "quokka.js",
+    "scripts": {
+        "commit": "git-cz",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+        "dev": "cross-env BABEL_ENV='dev' rollup -c -w --environment NODE_ENV:development",
+        "build": "cross-env BABEL_ENV='prod' rollup -c --environment NODE_ENV:production",
+        "doc": "node ./node_modules/jsdoc/jsdoc.js src/index.ts -c ./scripts/jsdoc.conf.json -R README.md -r",
+        "test": "cross-env BABEL_ENV='test' jest",
+        "lint": "eslint src --ext .ts",
+        "lint:fix": "eslint src --ext .ts --fix",
+        "release": "./release.sh",
+        "beforePublish": "npm run lint && npm run doc && npm run build"
+    },
+    "husky": {
         "hooks": {
             "pre-commit": ""
         }
@@ -61,14 +61,14 @@
             "path": "./node_modules/cz-conventional-changelog"
         }
     },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chenliang123/learngit.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chenliang123/learngit/issues"
-  },
-  "homepage": "https://github.com/chenliang123/learngit#readme"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chenliang123/learngit.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chenliang123/learngit/issues"
+    },
+    "homepage": "https://github.com/chenliang123/learngit#readme"
 }
