@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/chenliang123/learngit/compare/zh_v4.0.0...zh_v5.0.0) (2020-02-04)
+
+
+### Features
+
+* 修复shell脚本 ([992e875](https://github.com/chenliang123/learngit/commit/992e875c08a88da1cd35d7ac835ac450aa09127b))
+
 ## [4.0.0](https://github.com/chenliang123/learngit/compare/zh_v3.0.4...zh_v4.0.0) (2020-02-04)
 
 ### [3.0.4](https://github.com/chenliang123/learngit/compare/zh_v3.0.3...zh_v3.0.4) (2020-02-04)
